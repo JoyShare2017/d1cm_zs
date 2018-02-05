@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  testlist
+//
+//  Created by gaoyang on 2017/5/17.
+//  Copyright © 2017年 gaoyang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define SWIDTH       [[UIScreen mainScreen]bounds].size.width
+#define SHEIGHT      [[UIScreen mainScreen]bounds].size.height
+#define IMAGEWH      [[UIScreen mainScreen]bounds].size.width/6  //图片高度 宽度
+#define SELECTCOLOR        [UIColor colorWithRed:235/255.f green:235/255.f blue:241/255.f alpha:1] //图片选中背景颜色
+#define NORMALCOLOR        [UIColor whiteColor] //图片正常背景颜色
+#define BORDERCOLOR        [UIColor lightGrayColor].CGColor //图片边框颜色
+#define LINEGRAY [UIColor colorWithRed:235/255.f green:235/255.f blue:241/255.f alpha:1]; //细线颜色
+#define ITEMNAMEHEIGHT 30 //小标题高度
+#define ITEMHEIGHT 50 //选项高度
+#endif /* PrefixHeader_pch */
