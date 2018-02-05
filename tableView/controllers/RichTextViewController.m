@@ -4,7 +4,7 @@
 //
 //  Created by 赵帅 on 2017/8/26.
 //  Copyright © 2017年 gaoyang. All rights reserved. 
-//
+//  asdfadf
 
 #import "RichTextViewController.h"
 
